@@ -150,43 +150,6 @@
             <stringProp name="filename"></stringProp>
           </ResultCollector>
           <hashTree/>
-          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
-            <boolProp name="ResultCollector.error_logging">false</boolProp>
-            <objProp>
-              <name>saveConfig</name>
-              <value class="SampleSaveConfiguration">
-                <time>true</time>
-                <latency>true</latency>
-                <timestamp>true</timestamp>
-                <success>true</success>
-                <label>true</label>
-                <code>true</code>
-                <message>true</message>
-                <threadName>true</threadName>
-                <dataType>true</dataType>
-                <encoding>false</encoding>
-                <assertions>true</assertions>
-                <subresults>true</subresults>
-                <responseData>false</responseData>
-                <samplerData>false</samplerData>
-                <xml>true</xml>
-                <fieldNames>true</fieldNames>
-                <responseHeaders>false</responseHeaders>
-                <requestHeaders>false</requestHeaders>
-                <responseDataOnError>false</responseDataOnError>
-                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-                <assertionsResultsToSave>0</assertionsResultsToSave>
-                <bytes>true</bytes>
-                <sentBytes>true</sentBytes>
-                <url>true</url>
-                <threadCounts>true</threadCounts>
-                <idleTime>true</idleTime>
-                <connectTime>true</connectTime>
-              </value>
-            </objProp>
-            <stringProp name="filename"></stringProp>
-          </ResultCollector>
-          <hashTree/>
         </hashTree>
         <BeanShellSampler guiclass="BeanShellSamplerGui" testclass="BeanShellSampler" testname="把登陆的token设置为全局变量" enabled="true">
           <stringProp name="BeanShellSampler.query">${__setProperty(newtoken,${token},)}</stringProp>
@@ -8912,28 +8875,18 @@ out.close();</stringProp>
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="${ip}变量" enabled="true">
+      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
         <collectionProp name="Arguments.arguments">
           <elementProp name="ip" elementType="Argument">
             <stringProp name="Argument.name">ip</stringProp>
             <stringProp name="Argument.value">192.168.1.238</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-        </collectionProp>
-      </Arguments>
-      <hashTree/>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="${Port}变量" enabled="true">
-        <collectionProp name="Arguments.arguments">
           <elementProp name="Port" elementType="Argument">
             <stringProp name="Argument.name">Port</stringProp>
             <stringProp name="Argument.value">8048</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-        </collectionProp>
-      </Arguments>
-      <hashTree/>
-      <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="${http}变量" enabled="true">
-        <collectionProp name="Arguments.arguments">
           <elementProp name="http" elementType="Argument">
             <stringProp name="Argument.name">http</stringProp>
             <stringProp name="Argument.value">http</stringProp>
