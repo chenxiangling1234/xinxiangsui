@@ -66,42 +66,6 @@
             <stringProp name="Sample.scope">all</stringProp>
           </RegexExtractor>
           <hashTree/>
-          <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="察看结果树" enabled="true">
-            <boolProp name="ResultCollector.error_logging">false</boolProp>
-            <objProp>
-              <name>saveConfig</name>
-              <value class="SampleSaveConfiguration">
-                <time>true</time>
-                <latency>true</latency>
-                <timestamp>true</timestamp>
-                <success>true</success>
-                <label>true</label>
-                <code>true</code>
-                <message>true</message>
-                <threadName>true</threadName>
-                <dataType>true</dataType>
-                <encoding>false</encoding>
-                <assertions>true</assertions>
-                <subresults>true</subresults>
-                <responseData>false</responseData>
-                <samplerData>false</samplerData>
-                <xml>false</xml>
-                <fieldNames>true</fieldNames>
-                <responseHeaders>false</responseHeaders>
-                <requestHeaders>false</requestHeaders>
-                <responseDataOnError>false</responseDataOnError>
-                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
-                <assertionsResultsToSave>0</assertionsResultsToSave>
-                <bytes>true</bytes>
-                <sentBytes>true</sentBytes>
-                <threadCounts>true</threadCounts>
-                <idleTime>true</idleTime>
-                <connectTime>true</connectTime>
-              </value>
-            </objProp>
-            <stringProp name="filename"></stringProp>
-          </ResultCollector>
-          <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="断言结果包含本次登陆user id" enabled="true">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="-836030906">userId</stringProp>
@@ -377,8 +341,8 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="50511102">category</stringProp>
-              <stringProp name="-645901025">心相随智能坐便垫</stringProp>
+              <stringProp name="83787357">serialNumber</stringProp>
+              <stringProp name="1709072180">333333333333301</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -548,8 +512,16 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1867169789">success</stringProp>
-              <stringProp name="3569038">true</stringProp>
+              <stringProp name="83787357">serialNumber</stringProp>
+              <stringProp name="1709072180">333333333333301</stringProp>
+              <stringProp name="83787357">serialNumber</stringProp>
+              <stringProp name="1709072183">333333333333304</stringProp>
+              <stringProp name="83787357">serialNumber</stringProp>
+              <stringProp name="1709072185">333333333333306</stringProp>
+              <stringProp name="83787357">serialNumber</stringProp>
+              <stringProp name="1709072181">333333333333302</stringProp>
+              <stringProp name="83787357">serialNumber</stringProp>
+              <stringProp name="1709072182">333333333333303</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -960,8 +932,8 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1867169789">success</stringProp>
-              <stringProp name="3569038">true</stringProp>
+              <stringProp name="3076010">data</stringProp>
+              <stringProp name="-45804479">[&quot;心相随智能坐便垫&quot;]</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -1118,8 +1090,8 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1867169789">success</stringProp>
-              <stringProp name="3569038">true</stringProp>
+              <stringProp name="3355">id</stringProp>
+              <stringProp name="-693488524">c174983f-c106-4898-9a39-78d2bd8e8572</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -1552,10 +1524,14 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1976383358">systolic</stringProp>
-              <stringProp name="48718">130</stringProp>
-              <stringProp name="1546077460">diastolic</stringProp>
-              <stringProp name="1660">40</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1574">17</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1575">18</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1600">22</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1601">23</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -1886,8 +1862,10 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="106642798">phone</stringProp>
-              <stringProp name="-1256013352">13437563510</stringProp>
+              <stringProp name="-1221029593">height</stringProp>
+              <stringProp name="48813">162</stringProp>
+              <stringProp name="-791592328">weight</stringProp>
+              <stringProp name="1660">40</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -3261,10 +3239,14 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="1976383358">systolic</stringProp>
-              <stringProp name="48718">130</stringProp>
-              <stringProp name="1546077460">diastolic</stringProp>
-              <stringProp name="1660">40</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1574">17</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1575">18</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1600">22</stringProp>
+              <stringProp name="1711532564">sensorType</stringProp>
+              <stringProp name="1601">23</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -3473,8 +3455,10 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="106642798">phone</stringProp>
-              <stringProp name="-1256013352">13437563510</stringProp>
+              <stringProp name="-1221029593">height</stringProp>
+              <stringProp name="48811">160</stringProp>
+              <stringProp name="-791592328">weight</stringProp>
+              <stringProp name="1660">40</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -3808,8 +3792,16 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="3373707">name</stringProp>
-              <stringProp name="772880021">慢病防护</stringProp>
+              <stringProp name="3355">id</stringProp>
+              <stringProp name="1068906206">5a167a140d49c852243ca42b</stringProp>
+              <stringProp name="3355">id</stringProp>
+              <stringProp name="-344276862">5a167cbe0d49c852243ca42d</stringProp>
+              <stringProp name="3355">id</stringProp>
+              <stringProp name="-612408048">5a29114c0d49c80ef7ddf1c2</stringProp>
+              <stringProp name="3355">id</stringProp>
+              <stringProp name="1332177199">5a29115b0d49c80ef7ddf1c3</stringProp>
+              <stringProp name="3355">id</stringProp>
+              <stringProp name="-1787599071">5a2911640d49c80ef7ddf1c4</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -3950,8 +3942,8 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="116079">url</stringProp>
-              <stringProp name="-210342892">https://api.xinxiangsui.com.cn/news</stringProp>
+              <stringProp name="110371416">title</stringProp>
+              <stringProp name="903146">测试</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -4018,8 +4010,8 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1867169789">success</stringProp>
-              <stringProp name="3569038">true</stringProp>
+              <stringProp name="-1048827058">newsId</stringProp>
+              <stringProp name="1737974001">5a29113d0d49c80ef7ddf1c1</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -4816,6 +4808,8 @@
             <collectionProp name="Asserion.test_strings">
               <stringProp name="110371416">title</stringProp>
               <stringProp name="637073013">健康专家</stringProp>
+              <stringProp name="110371416">title</stringProp>
+              <stringProp name="903146">测试</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -7964,6 +7958,43 @@
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
+          <hashTree/>
+          <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="断言结果" enabled="true">
+            <boolProp name="ResultCollector.error_logging">false</boolProp>
+            <objProp>
+              <name>saveConfig</name>
+              <value class="SampleSaveConfiguration">
+                <time>true</time>
+                <latency>true</latency>
+                <timestamp>true</timestamp>
+                <success>true</success>
+                <label>true</label>
+                <code>true</code>
+                <message>true</message>
+                <threadName>true</threadName>
+                <dataType>true</dataType>
+                <encoding>false</encoding>
+                <assertions>true</assertions>
+                <subresults>true</subresults>
+                <responseData>false</responseData>
+                <samplerData>false</samplerData>
+                <xml>true</xml>
+                <fieldNames>true</fieldNames>
+                <responseHeaders>false</responseHeaders>
+                <requestHeaders>false</requestHeaders>
+                <responseDataOnError>false</responseDataOnError>
+                <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+                <assertionsResultsToSave>0</assertionsResultsToSave>
+                <bytes>true</bytes>
+                <sentBytes>true</sentBytes>
+                <url>true</url>
+                <threadCounts>true</threadCounts>
+                <idleTime>true</idleTime>
+                <connectTime>true</connectTime>
+              </value>
+            </objProp>
+            <stringProp name="filename"></stringProp>
+          </ResultCollector>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="内部发消息（待请求）" enabled="false">
