@@ -7733,7 +7733,7 @@
             </collectionProp>
           </HeaderManager>
           <hashTree/>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="false">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="3556653">text</stringProp>
               <stringProp name="649312">中热</stringProp>
@@ -7746,7 +7746,7 @@
             <intProp name="Assertion.test_type">48</intProp>
           </ResponseAssertion>
           <hashTree/>
-          <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="断言结果" enabled="true">
+          <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="断言结果" enabled="false">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
             <objProp>
               <name>saveConfig</name>
