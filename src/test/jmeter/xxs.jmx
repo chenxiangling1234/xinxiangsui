@@ -1481,11 +1481,11 @@
       &quot;type&quot;: &quot;last&quot;&#xd;
     },&#xd;
     {&#xd;
-      &quot;sensorType&quot;: &quot;23&quot;,&#xd;
+      &quot;sensorType&quot;: &quot;43&quot;,&#xd;
       &quot;type&quot;: &quot;last&quot;&#xd;
     },&#xd;
     {&#xd;
-      &quot;sensorType&quot;: &quot;24&quot;,&#xd;
+      &quot;sensorType&quot;: &quot;44&quot;,&#xd;
       &quot;type&quot;: &quot;last&quot;&#xd;
     }&#xd;
   ]&#xd;
@@ -1530,8 +1530,6 @@
               <stringProp name="1575">18</stringProp>
               <stringProp name="1711532564">sensorType</stringProp>
               <stringProp name="1600">22</stringProp>
-              <stringProp name="1711532564">sensorType</stringProp>
-              <stringProp name="1601">23</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -2399,7 +2397,7 @@
           </ResultCollector>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="用户手动上传数据-23（体温）" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="用户手动上传数据-44（腿温）" enabled="true">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -2418,7 +2416,7 @@
           <stringProp name="HTTPSampler.port">${Port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${http}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-          <stringProp name="HTTPSampler.path">/jiankang/v1/data/sensor/23/</stringProp>
+          <stringProp name="HTTPSampler.path">/jiankang/v1/data/sensor/44/</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2444,7 +2442,7 @@
           <hashTree/>
           <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="正则表达式提取器" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-            <stringProp name="RegexExtractor.refname">datapoint_id_23</stringProp>
+            <stringProp name="RegexExtractor.refname">datapoint_id_44</stringProp>
             <stringProp name="RegexExtractor.regex">&quot;id&quot;:&quot;(.+?)&quot;</stringProp>
             <stringProp name="RegexExtractor.template">$1$</stringProp>
             <stringProp name="RegexExtractor.default"></stringProp>
@@ -2500,7 +2498,7 @@
           </ResultCollector>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="用户手动上传数据-24（心电图）(待请求，value值要问开发怎么传)" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="用户手动上传数据-43（心电图）(待请求，value值要问开发怎么传)" enabled="false">
           <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
             <collectionProp name="Arguments.arguments">
@@ -2519,7 +2517,7 @@
           <stringProp name="HTTPSampler.port">${Port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${http}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-          <stringProp name="HTTPSampler.path">/jiankang/v1/data/sensor/24/</stringProp>
+          <stringProp name="HTTPSampler.path">/jiankang/v1/data/sensor/43/</stringProp>
           <stringProp name="HTTPSampler.method">POST</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -2545,7 +2543,7 @@
           <hashTree/>
           <RegexExtractor guiclass="RegexExtractorGui" testclass="RegexExtractor" testname="正则表达式提取器" enabled="true">
             <stringProp name="RegexExtractor.useHeaders">false</stringProp>
-            <stringProp name="RegexExtractor.refname">datapoint_id_24</stringProp>
+            <stringProp name="RegexExtractor.refname">datapoint_id_43</stringProp>
             <stringProp name="RegexExtractor.regex">&quot;id&quot;:&quot;(.+?)&quot;</stringProp>
             <stringProp name="RegexExtractor.template">$1$</stringProp>
             <stringProp name="RegexExtractor.default"></stringProp>
@@ -2727,9 +2725,6 @@
   &quot;text&quot;: &quot;手动录入&quot;,&#xd;
   &quot;timestamp&quot;: &quot;2019-03-13T09:23:26.503Z&quot;,&#xd;
   &quot;userId&quot;: &quot;5c8084fbd8e78f6f12192247&quot;,&#xd;
-  &quot;channelId&quot;: &quot;string&quot;,&#xd;
-  &quot;deviceId&quot;: &quot;string&quot;,&#xd;
-  &quot;sensor_id&quot;: &quot;string&quot;,&#xd;
   &quot;status&quot;: {&#xd;
     &quot;text&quot;: &quot;手动录入&quot;,&#xd;
     &quot;value&quot;: &quot;160&quot;&#xd;
@@ -3059,7 +3054,7 @@
           </ResultCollector>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="删除单个数据点-23（体温）" enabled="true">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="删除单个数据点-44（腿温）" enabled="true">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3067,7 +3062,7 @@
           <stringProp name="HTTPSampler.port">${Port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${http}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-          <stringProp name="HTTPSampler.path">/jiankang/v1/data/${datapoint_id_23}/</stringProp>
+          <stringProp name="HTTPSampler.path">/jiankang/v1/data/${datapoint_id_44}/</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3140,7 +3135,7 @@
           </ResultCollector>
           <hashTree/>
         </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="删除单个数据点-24（待请求，心电图）" enabled="false">
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="删除单个数据点-43（待请求，心电图）" enabled="false">
           <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="用户定义的变量" enabled="true">
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
@@ -3148,7 +3143,7 @@
           <stringProp name="HTTPSampler.port">${Port}</stringProp>
           <stringProp name="HTTPSampler.protocol">${http}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding">utf-8</stringProp>
-          <stringProp name="HTTPSampler.path">/jiankang/v1/data/${datapoint_id_24}/</stringProp>
+          <stringProp name="HTTPSampler.path">/jiankang/v1/data/${datapoint_id_43}/</stringProp>
           <stringProp name="HTTPSampler.method">DELETE</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
@@ -3196,11 +3191,11 @@
       &quot;type&quot;: &quot;last&quot;&#xd;
     },&#xd;
     {&#xd;
-      &quot;sensorType&quot;: &quot;23&quot;,&#xd;
+      &quot;sensorType&quot;: &quot;43&quot;,&#xd;
       &quot;type&quot;: &quot;last&quot;&#xd;
     },&#xd;
     {&#xd;
-      &quot;sensorType&quot;: &quot;24&quot;,&#xd;
+      &quot;sensorType&quot;: &quot;44&quot;,&#xd;
       &quot;type&quot;: &quot;last&quot;&#xd;
     }&#xd;
   ]&#xd;
@@ -3245,8 +3240,6 @@
               <stringProp name="1575">18</stringProp>
               <stringProp name="1711532564">sensorType</stringProp>
               <stringProp name="1600">22</stringProp>
-              <stringProp name="1711532564">sensorType</stringProp>
-              <stringProp name="1601">23</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
