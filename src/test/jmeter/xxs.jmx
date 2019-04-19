@@ -6797,8 +6797,8 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="3373707">name</stringProp>
-              <stringProp name="118497">xcl</stringProp>
+              <stringProp name="-836030906">userId</stringProp>
+              <stringProp name="-2011214898">5c934d16d8e78f373c67a5a5</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -6874,8 +6874,8 @@
           <hashTree/>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="3373707">name</stringProp>
-              <stringProp name="118497">xcl</stringProp>
+              <stringProp name="-836030906">userId</stringProp>
+              <stringProp name="-2011214898">5c934d16d8e78f373c67a5a5</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -7843,7 +7843,7 @@
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="响应断言" enabled="true">
             <collectionProp name="Asserion.test_strings">
               <stringProp name="3556653">text</stringProp>
-              <stringProp name="1619432735">xcl 已成为您关注的家庭成员。</stringProp>
+              <stringProp name="-380836828">lianghanhua 已成为您关注的家庭成员。</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
